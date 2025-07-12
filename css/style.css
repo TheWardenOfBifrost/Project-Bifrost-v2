@@ -1,0 +1,16 @@
+/* Dream Pulse style.css placeholder */
+
+/* Ensure background images cover the screen without too much zoom */
+.section-bg {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Make sidebar (menu) background transparent */
+#sidebar-wrapper {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(3px);
+}
